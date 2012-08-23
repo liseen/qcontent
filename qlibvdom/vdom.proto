@@ -1,0 +1,67 @@
+package vdom;
+
+message Window {
+    required string location = 1;
+    optional int32 inner_width = 2;
+    optional int32 inner_height = 3;
+    optional int32 outer_width = 4;
+    optional int32 outer_height = 5;
+
+    optional Document doc = 6;
+};
+
+message Document {
+    optional int32 width = 1;
+    optional int32 height = 2;
+    optional string title = 3;
+    optional string keywords = 4;
+    optional string description = 5;
+    optional Node body = 10;
+};
+
+
+message Node {
+    enum Type {
+        TEXT = 0;
+        ELEMENT = 1;
+    };
+
+    enum RenderType {
+        BLOCK = 0;
+        INLINE = 1;
+        IMAGE = 2;
+        VIDEO = 3;
+        OTHER = 10;
+    };
+
+    required  Type type = 1;
+
+    optional  int32 x  = 2;
+    optional  int32 y  = 3;
+    optional  int32 w  = 4;
+    optional  int32 h  = 5;
+
+    optional string id = 7;
+    optional string tag_name = 6;
+    optional string name = 8;
+    optional string class_name = 9;
+    optional string color = 10;
+    optional string background_color = 11;
+
+    optional string target = 12;
+
+    optional string alt = 13;
+    optional string src = 14;
+    optional string href = 15;
+    optional string value = 16;
+    optional string text = 17;
+
+    optional RenderType render_type = 18 [default = OTHER ];
+
+    optional string font_size = 20;
+    optional string font_family = 21;
+    optional string font_style = 22;
+    optional string font_weight = 23;
+    repeated Node child_nodes = 24;
+};
+

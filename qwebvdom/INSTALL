@@ -1,0 +1,26 @@
+
+1. install qt
+
+    # get qt
+    wget http://get.qt.nokia.com/qt/source/qt-everywhere-opensource-src-4.7.1.tar.gz
+
+    # install qt on ubuntu
+
+    sudo apt-get install libX11-dev libXext-dev libXtst-dev
+
+    echo yes | ./configure -opensource  --prefix=/opt/qt -nomake examples -nomake demos -nomake docs
+    make -j8
+    sudo make install
+
+2. install qwebvdom on ubuntu
+
+    cd qwebvdom
+    ln -s /home/liseen/Downloads/qt-everywhere-opensource-src-4.7.1/src/3rdparty/webkit/WebCore/ ./webcore
+
+    make -f Makefile_ubuntu_471
+
+    install qwebvdom
+
+	cp /opt/qt/lib/libQtWebKit.so.4.7.1 /opt/qt/lib/libQtWebKit.so.4.7.1.bak
+	cp libQtWebKit.so.4.7.1 /opt/qt/lib/
+

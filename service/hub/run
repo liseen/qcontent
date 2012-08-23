@@ -1,0 +1,13 @@
+#!/bin/sh
+
+exec 2>&1
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+
+BIN=$(readlink -f -- $(dirname -- "$0"))
+
+exec setuidgid xunxin.wan /opt/qcontent/bin/qcontenthubd

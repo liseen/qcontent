@@ -1,0 +1,6 @@
+LOG_DIR=/export/m4/qcrawler-log/
+test -d $LOG_DIR || mkdir -p $LOG_DIR
+
+export GLOG_log_dir=$LOG_DIR
+
+./qcrawler -c ./test.conf

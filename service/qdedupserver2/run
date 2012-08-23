@@ -1,0 +1,18 @@
+#!/bin/sh
+
+exec 2>&1
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+
+FILE_DIR=/export/m1/qdedupserver/
+test -d $FILE_DIR || mkdir -p $FILE_DIR && chmod a+w $FILE_DIR
+
+LOG_DIR=/export/m4/qdedup-log/
+test -d $LOG_DIR || mkdir -p $LOG_DIR
+export GLOG_log_dir=$LOG_DIR
+
+exec /opt/qcontent/bin/dedup_server -p 20005 -s 1000 -f $FILE_DIR/dedup_server_file2 -t 50

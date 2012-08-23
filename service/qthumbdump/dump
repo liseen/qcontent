@@ -1,0 +1,34 @@
+#!/bin/env bash
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+
+BIN=$(readlink -f -- $(dirname -- "$0"))
+
+DUMP_DIR=/export/m4/thumb-dump
+test -d $DUMP_DIR || mkdir -p $DUMP_DIR
+
+cd $DUMP_DIR
+
+while true
+do
+    hubproc=` ps -ef | grep -v grep | grep qcontenthub | grep -v "\-u"`
+    if [ ! -z "$hubproc" ]
+    then
+        now_date=`date +%Y%m%d%H%M%S`
+        extracted_file="$now_date.thumb"
+        echo -e "dump_extracted\t5000" | hubmgr -h l-crwl5 -p 7677 > "$extracted_file" 2>"$extracted_file.err"
+        if [ ! -s "$extracted_file" ];
+        then
+            rm  -rf "$extracted_file"
+        fi
+        if [ ! -s "$extracted_file.err" ];
+        then
+            rm  -rf "$extracted_file.err"
+        fi
+    fi
+    sleep 2
+done

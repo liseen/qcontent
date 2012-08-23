@@ -1,0 +1,13 @@
+#!/bin/sh
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcrawler-thirdparty/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcrawler-thirdparty/bin:$PATH
+
+export DISPLAY=:99
+
+test -d /export/m1/qcrawler/log/ || mkdir -p /export/m1/qcrawler/log/
+
+/opt/qcrawler/bin/qcrawler crawl --conf=/opt/qcrawler/etc/qcrawler.conf > /export/m1/qcrawler/log/$$

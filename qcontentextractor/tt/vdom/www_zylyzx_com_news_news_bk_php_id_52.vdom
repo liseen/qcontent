@@ -1,0 +1,3147 @@
+location: "http://www.zylyzx.com/news/news_bk.php?id=52"
+inner_width: 947
+inner_height: 843
+outer_width: 0
+outer_height: 0
+doc {
+  width: 931
+  height: 1159
+  title: "越南河内西湖(金牛湖)_越南资讯_越南旅游网"
+  keywords: "越南河内西湖(金牛湖)"
+  description: "越南旅游网由北海环球国旅主办，为客户提供:越南旅游、越南旅游咨询、越南旅游预定、越南酒店预定、越南商务考察、景点介绍等服务。咨询电话:0779-3082807"
+  body {
+    type: ELEMENT
+    x: 0
+    y: 0
+    w: 931
+    h: 1159
+    tag_name: "BODY"
+    color: "rgb(0, 0, 0)"
+    background_color: "rgba(0, 0, 0, 0)"
+    render_type: BLOCK
+    font_size: "12px"
+    font_family: "Verdana, Arial, Helvetica, sans-serif"
+    font_style: "normal"
+    font_weight: "normal"
+    child_nodes {
+      type: TEXT
+      text: "\n"
+    }
+    child_nodes {
+      type: ELEMENT
+      x: 65
+      y: 0
+      w: 800
+      h: 213
+      tag_name: "DIV"
+      id: "header"
+      color: "rgb(0, 0, 0)"
+      background_color: "rgba(0, 0, 0, 0)"
+      render_type: BLOCK
+      font_size: "12px"
+      font_family: "Verdana, Arial, Helvetica, sans-serif"
+      font_style: "normal"
+      font_weight: "normal"
+      child_nodes {
+        type: TEXT
+        text: "\n"
+      }
+      child_nodes {
+        type: ELEMENT
+        x: 65
+        y: 0
+        w: 800
+        h: 31
+        tag_name: "DIV"
+        color: "rgb(0, 0, 0)"
+        background_color: "rgb(247, 247, 247)"
+        render_type: BLOCK
+        font_size: "12px"
+        font_family: "Verdana, Arial, Helvetica, sans-serif"
+        font_style: "normal"
+        font_weight: "normal"
+        child_nodes {
+          type: TEXT
+          text: "\n"
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 65
+          y: 1
+          w: 445
+          h: 30
+          tag_name: "SPAN"
+          color: "rgb(255, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "16px"
+          font_family: "黑体"
+          font_style: "normal"
+          font_weight: "bold"
+          child_nodes {
+            type: TEXT
+            x: 66
+            y: 7
+            w: 444
+            h: 18
+            text: "越南旅游-服务热线: 0779-3082807   手机:18977934338 "
+          }
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n"
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 65
+          y: 0
+          w: 329
+          h: 13
+          tag_name: "SPAN"
+          color: "rgb(0, 85, 170)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: INLINE
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: TEXT
+            x: 533
+            y: 9
+            w: 329
+            h: 13
+            text: "广西北海市北海大道中22号桂海宾馆一楼 北海环球国际旅行社"
+          }
+        }
+        child_nodes {
+          type: TEXT
+          x: 65
+          y: 0
+          w: 0
+          h: 0
+          text: "\n"
+        }
+      }
+      child_nodes {
+        type: TEXT
+        text: "\n"
+      }
+      child_nodes {
+        type: ELEMENT
+        x: 65
+        y: 31
+        w: 800
+        h: 100
+        tag_name: "DIV"
+        id: "logo"
+        color: "rgb(0, 0, 0)"
+        background_color: "rgba(0, 0, 0, 0)"
+        render_type: BLOCK
+        font_size: "12px"
+        font_family: "Verdana, Arial, Helvetica, sans-serif"
+        font_style: "normal"
+        font_weight: "normal"
+        child_nodes {
+          type: TEXT
+          text: "\n          "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 65
+          y: 31
+          w: 800
+          h: 100
+          tag_name: "OBJECT"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: OTHER
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: TEXT
+            text: "\n            "
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n            "
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n            "
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n          "
+          }
+        }
+        child_nodes {
+          type: TEXT
+          x: 65
+          y: 31
+          w: 0
+          h: 0
+          text: "\n        "
+        }
+      }
+      child_nodes {
+        type: TEXT
+        text: "\n"
+      }
+      child_nodes {
+        type: ELEMENT
+        x: 65
+        y: 137
+        w: 800
+        h: 76
+        tag_name: "DIV"
+        color: "rgb(0, 0, 0)"
+        background_color: "rgba(0, 0, 0, 0)"
+        render_type: BLOCK
+        font_size: "12px"
+        font_family: "Verdana, Arial, Helvetica, sans-serif"
+        font_style: "normal"
+        font_weight: "normal"
+        child_nodes {
+          type: TEXT
+          text: "\n"
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 65
+          y: 137
+          w: 10
+          h: 76
+          tag_name: "DIV"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n"
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 75
+          y: 137
+          w: 780
+          h: 76
+          tag_name: "DIV"
+          id: "nav_mainy"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: TEXT
+            text: "\n          "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 75
+            y: 137
+            w: 780
+            h: 37
+            tag_name: "UL"
+            class_name: "s1"
+            color: "rgb(255, 255, 255)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "14px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              text: "\n            "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 80
+              y: 137
+              w: 90
+              h: 37
+              tag_name: "LI"
+              class_name: "n"
+              color: "rgb(255, 255, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "bold"
+              child_nodes {
+                type: ELEMENT
+                x: 80
+                y: 137
+                w: 32
+                h: 15
+                tag_name: "A"
+                color: "rgb(255, 255, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: ELEMENT
+                  x: 80
+                  y: 137
+                  w: 32
+                  h: 15
+                  tag_name: "FONT"
+                  color: "rgb(235, 245, 73)"
+                  background_color: "rgba(0, 0, 0, 0)"
+                  render_type: INLINE
+                  font_size: "14px"
+                  font_family: "Verdana, Arial, Helvetica, sans-serif"
+                  font_style: "normal"
+                  font_weight: "bold"
+                  child_nodes {
+                    type: TEXT
+                    x: 109
+                    y: 148
+                    w: 32
+                    h: 15
+                    text: "首 页"
+                  }
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: " \n            "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 175
+              y: 137
+              w: 90
+              h: 37
+              tag_name: "LI"
+              color: "rgb(255, 255, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "bold"
+              child_nodes {
+                type: ELEMENT
+                x: 175
+                y: 137
+                w: 56
+                h: 15
+                tag_name: "A"
+                color: "rgb(255, 255, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/about/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 192
+                  y: 148
+                  w: 56
+                  h: 15
+                  text: "关于我们"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n            "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 270
+              y: 137
+              w: 90
+              h: 37
+              tag_name: "LI"
+              color: "rgb(255, 255, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "bold"
+              child_nodes {
+                type: ELEMENT
+                x: 270
+                y: 137
+                w: 56
+                h: 15
+                tag_name: "A"
+                color: "rgb(255, 255, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/present/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 287
+                  y: 148
+                  w: 56
+                  h: 15
+                  text: "旅游路线"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n            "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 365
+              y: 137
+              w: 90
+              h: 37
+              tag_name: "LI"
+              color: "rgb(255, 255, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "bold"
+              child_nodes {
+                type: ELEMENT
+                x: 365
+                y: 137
+                w: 56
+                h: 15
+                tag_name: "A"
+                color: "rgb(255, 255, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/scenery/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 382
+                  y: 148
+                  w: 56
+                  h: 15
+                  text: "旅游景点"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n            "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 460
+              y: 137
+              w: 90
+              h: 37
+              tag_name: "LI"
+              color: "rgb(255, 255, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "bold"
+              child_nodes {
+                type: ELEMENT
+                x: 460
+                y: 137
+                w: 56
+                h: 15
+                tag_name: "A"
+                color: "rgb(255, 255, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/hotels/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 477
+                  y: 148
+                  w: 56
+                  h: 15
+                  text: "酒店预订"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n            "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 555
+              y: 137
+              w: 90
+              h: 37
+              tag_name: "LI"
+              color: "rgb(255, 255, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "bold"
+              child_nodes {
+                type: ELEMENT
+                x: 555
+                y: 137
+                w: 56
+                h: 15
+                tag_name: "A"
+                color: "rgb(255, 255, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 572
+                  y: 148
+                  w: 56
+                  h: 15
+                  text: "新闻资讯"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n            "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 650
+              y: 137
+              w: 90
+              h: 37
+              tag_name: "LI"
+              color: "rgb(255, 255, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "bold"
+              child_nodes {
+                type: ELEMENT
+                x: 650
+                y: 137
+                w: 56
+                h: 15
+                tag_name: "A"
+                color: "rgb(255, 255, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/picture/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 667
+                  y: 148
+                  w: 56
+                  h: 15
+                  text: "越南图片"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n            "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 745
+              y: 137
+              w: 90
+              h: 37
+              tag_name: "LI"
+              color: "rgb(255, 255, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "bold"
+              child_nodes {
+                type: ELEMENT
+                x: 745
+                y: 137
+                w: 28
+                h: 15
+                tag_name: "A"
+                color: "rgb(255, 255, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_bk.php?id=52#"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 776
+                  y: 148
+                  w: 28
+                  h: 15
+                  text: "论坛"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n          "
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 75
+            y: 174
+            w: 780
+            h: 39
+            tag_name: "UL"
+            class_name: "s2"
+            color: "rgb(87, 188, 56)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "14px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              text: "\n "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 75
+              y: 174
+              w: 390
+              h: 39
+              tag_name: "LI"
+              color: "rgb(87, 188, 56)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 75
+                y: 174
+                w: 63
+                h: 19
+                tag_name: "FONT"
+                color: "rgb(255, 255, 255)"
+                background_color: "rgb(7, 174, 229)"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 77
+                  y: 186
+                  w: 59
+                  h: 15
+                  text: "周边旅游:"
+                }
+              }
+              child_nodes {
+                type: TEXT
+                x: 138
+                y: 186
+                w: 4
+                h: 15
+                text: " "
+              }
+              child_nodes {
+                type: ELEMENT
+                x: 75
+                y: 174
+                w: 56
+                h: 15
+                tag_name: "A"
+                color: "rgb(87, 188, 56)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.gxbhly.net/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 142
+                  y: 186
+                  w: 56
+                  h: 15
+                  text: "北海旅游"
+                }
+              }
+              child_nodes {
+                type: TEXT
+                x: 198
+                y: 186
+                w: 11
+                h: 15
+                text: " | "
+              }
+              child_nodes {
+                type: ELEMENT
+                x: 75
+                y: 174
+                w: 56
+                h: 15
+                tag_name: "A"
+                color: "rgb(87, 188, 56)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.bhlyw.net/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 209
+                  y: 186
+                  w: 56
+                  h: 15
+                  text: "桂林旅游"
+                }
+              }
+              child_nodes {
+                type: TEXT
+                x: 265
+                y: 186
+                w: 11
+                h: 15
+                text: " | "
+              }
+              child_nodes {
+                type: ELEMENT
+                x: 75
+                y: 174
+                w: 70
+                h: 15
+                tag_name: "A"
+                color: "rgb(87, 188, 56)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.wzdly.com/"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 276
+                  y: 186
+                  w: 70
+                  h: 15
+                  text: "涠洲岛旅游"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 465
+              y: 174
+              w: 390
+              h: 39
+              tag_name: "LI"
+              color: "rgb(87, 188, 56)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 465
+                y: 174
+                w: 56
+                h: 15
+                tag_name: "SPAN"
+                color: "rgb(0, 85, 170)"
+                background_color: "rgba(0, 0, 0, 0)"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 679
+                  y: 186
+                  w: 56
+                  h: 15
+                  text: "设为首页"
+                }
+              }
+              child_nodes {
+                type: TEXT
+                x: 735
+                y: 186
+                w: 4
+                h: 15
+                text: "\n"
+              }
+              child_nodes {
+                type: ELEMENT
+                x: 465
+                y: 174
+                w: 56
+                h: 15
+                tag_name: "SPAN"
+                color: "rgb(0, 85, 170)"
+                background_color: "rgba(0, 0, 0, 0)"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 739
+                  y: 186
+                  w: 56
+                  h: 15
+                  text: "加入收藏"
+                }
+              }
+              child_nodes {
+                type: TEXT
+                x: 795
+                y: 186
+                w: 4
+                h: 15
+                text: "\n"
+              }
+              child_nodes {
+                type: ELEMENT
+                x: 465
+                y: 174
+                w: 56
+                h: 15
+                tag_name: "A"
+                color: "rgb(87, 188, 56)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/sitemap.xml"
+                render_type: INLINE
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: ELEMENT
+                  x: 465
+                  y: 174
+                  w: 56
+                  h: 15
+                  tag_name: "SPAN"
+                  color: "rgb(0, 85, 170)"
+                  background_color: "rgba(0, 0, 0, 0)"
+                  render_type: INLINE
+                  font_size: "14px"
+                  font_family: "Verdana, Arial, Helvetica, sans-serif"
+                  font_style: "normal"
+                  font_weight: "normal"
+                  child_nodes {
+                    type: TEXT
+                    x: 799
+                    y: 186
+                    w: 56
+                    h: 15
+                    text: "网站地图"
+                  }
+                }
+              }
+              child_nodes {
+                type: TEXT
+                x: 465
+                y: 174
+                w: 0
+                h: 0
+                text: "\n"
+              }
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n"
+          }
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n"
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 855
+          y: 137
+          w: 10
+          h: 76
+          tag_name: "DIV"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: TEXT
+            text: "\n"
+          }
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n  "
+        }
+      }
+      child_nodes {
+        type: TEXT
+        text: "\n      "
+      }
+    }
+    child_nodes {
+      type: TEXT
+      text: "\n"
+    }
+    child_nodes {
+      type: ELEMENT
+      x: 65
+      y: 213
+      w: 800
+      h: 946
+      tag_name: "DIV"
+      id: "content"
+      color: "rgb(0, 0, 0)"
+      background_color: "rgba(0, 0, 0, 0)"
+      render_type: BLOCK
+      font_size: "12px"
+      font_family: "Verdana, Arial, Helvetica, sans-serif"
+      font_style: "normal"
+      font_weight: "normal"
+      child_nodes {
+        type: TEXT
+        text: "\n  "
+      }
+      child_nodes {
+        type: ELEMENT
+        x: 65
+        y: 213
+        w: 199
+        h: 660
+        tag_name: "DIV"
+        id: "left_about"
+        color: "rgb(0, 0, 0)"
+        background_color: "rgba(0, 0, 0, 0)"
+        render_type: BLOCK
+        font_size: "12px"
+        font_family: "Verdana, Arial, Helvetica, sans-serif"
+        font_style: "normal"
+        font_weight: "normal"
+        child_nodes {
+          type: TEXT
+          text: "\n     "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 65
+          y: 213
+          w: 199
+          h: 162
+          tag_name: "DL"
+          id: "nav_sub"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: TEXT
+            text: "\n\t     "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 65
+            y: 213
+            w: 199
+            h: 20
+            tag_name: "DT"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: ELEMENT
+              x: 75
+              y: 223
+              w: 0
+              h: 0
+              tag_name: "IMG"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              src: "http://www.zylyzx.com/images/gif-0820.gif"
+              render_type: IMAGE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+            }
+            child_nodes {
+              type: TEXT
+              x: 65
+              y: 213
+              w: 0
+              h: 0
+              text: " "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 87
+              y: 223
+              w: 56
+              h: 16
+              tag_name: "H1"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "14px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "bold"
+              child_nodes {
+                type: TEXT
+                x: 87
+                y: 223
+                w: 56
+                h: 15
+                text: "导航栏目"
+              }
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n      "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 65
+            y: 233
+            w: 199
+            h: 28
+            tag_name: "DD"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: ELEMENT
+              x: 65
+              y: 233
+              w: 48
+              h: 13
+              tag_name: "A"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              href: "http://www.zylyzx.com/scenery/"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 75
+                y: 237
+                w: 48
+                h: 13
+                text: "越南景点"
+              }
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n      "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 65
+            y: 261
+            w: 199
+            h: 30
+            tag_name: "DD"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: ELEMENT
+              x: 75
+              y: 265
+              w: 0
+              h: 0
+              tag_name: "A"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              href: "http://www.zylyzx.com/news/"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 75
+                y: 265
+                w: 179
+                h: 16
+                tag_name: "H3"
+                color: "rgb(255, 0, 0)"
+                background_color: "rgba(0, 0, 0, 0)"
+                render_type: BLOCK
+                font_size: "14px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 75
+                  y: 265
+                  w: 56
+                  h: 15
+                  text: "越南资讯"
+                }
+              }
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n      "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 65
+            y: 291
+            w: 199
+            h: 28
+            tag_name: "DD"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: ELEMENT
+              x: 65
+              y: 291
+              w: 48
+              h: 13
+              tag_name: "A"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              href: "http://www.zylyzx.com/picture/"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 75
+                y: 295
+                w: 48
+                h: 13
+                text: "越南图片"
+              }
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n      "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 65
+            y: 319
+            w: 199
+            h: 28
+            tag_name: "DD"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: ELEMENT
+              x: 65
+              y: 319
+              w: 48
+              h: 13
+              tag_name: "A"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              href: "http://www.zylyzx.com/present/"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 75
+                y: 323
+                w: 48
+                h: 13
+                text: "旅游路线"
+              }
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n      "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 65
+            y: 347
+            w: 199
+            h: 28
+            tag_name: "DD"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: ELEMENT
+              x: 65
+              y: 347
+              w: 48
+              h: 13
+              tag_name: "A"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              href: "http://www.zylyzx.com/hotels/"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 75
+                y: 351
+                w: 48
+                h: 13
+                text: "酒店预定"
+              }
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n    "
+          }
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n    "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 65
+          y: 375
+          w: 199
+          h: 200
+          tag_name: "DIV"
+          class_name: "con_list2"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: ELEMENT
+            x: 66
+            y: 376
+            w: 0
+            h: 0
+            tag_name: "IMG"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            alt: "旅游贴士"
+            src: "http://www.zylyzx.com/images/tip2.jpg"
+            render_type: IMAGE
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+          }
+          child_nodes {
+            type: TEXT
+            x: 66
+            y: 376
+            w: 0
+            h: 0
+            text: "\n    "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 66
+            y: 376
+            w: 197
+            h: 198
+            tag_name: "UL"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 376
+              w: 189
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 376
+                w: 267
+                h: 13
+                tag_name: "A"
+                color: "rgb(61, 107, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_xx.php?id=41"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 73
+                  y: 380
+                  w: 267
+                  h: 13
+                  text: "组团社许可证换发 市民出境旅游要认准旅行社资质"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 398
+              w: 189
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 398
+                w: 240
+                h: 13
+                tag_name: "A"
+                color: "rgb(61, 107, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_xx.php?id=40"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 73
+                  y: 402
+                  w: 240
+                  h: 13
+                  text: "在越南务工人员工作证、暂住证最新办理程式"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 420
+              w: 189
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 420
+                w: 132
+                h: 13
+                tag_name: "A"
+                color: "rgb(61, 107, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_xx.php?id=39"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 73
+                  y: 424
+                  w: 132
+                  h: 13
+                  text: "如何讨越南的姑娘做老婆"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 442
+              w: 189
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 442
+                w: 168
+                h: 13
+                tag_name: "A"
+                color: "rgb(61, 107, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_xx.php?id=38"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 73
+                  y: 446
+                  w: 168
+                  h: 13
+                  text: "越南一般商务、旅游、注意事项"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 464
+              w: 189
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 464
+                w: 247
+                h: 13
+                tag_name: "A"
+                color: "rgb(61, 107, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_xx.php?id=37"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 73
+                  y: 468
+                  w: 247
+                  h: 13
+                  text: "北海环球国旅被评为广西首批★★★★★旅行社"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 486
+              w: 189
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 486
+                w: 73
+                h: 13
+                tag_name: "A"
+                color: "rgb(61, 107, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_xx.php?id=36"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 73
+                  y: 490
+                  w: 73
+                  h: 13
+                  text: "越南省份详解"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 508
+              w: 189
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 508
+                w: 132
+                h: 13
+                tag_name: "A"
+                color: "rgb(61, 107, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_xx.php?id=35"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 73
+                  y: 512
+                  w: 132
+                  h: 13
+                  text: "越南旅游常见问题与答案"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 530
+              w: 189
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 530
+                w: 108
+                h: 13
+                tag_name: "A"
+                color: "rgb(61, 107, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_xx.php?id=34"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 73
+                  y: 534
+                  w: 108
+                  h: 13
+                  text: "越南自足有省钱攻略"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 552
+              w: 189
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 552
+                w: 156
+                h: 13
+                tag_name: "A"
+                color: "rgb(61, 107, 255)"
+                background_color: "rgba(0, 0, 0, 0)"
+                href: "http://www.zylyzx.com/news/news_xx.php?id=33"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "normal"
+                child_nodes {
+                  type: TEXT
+                  x: 73
+                  y: 556
+                  w: 156
+                  h: 13
+                  text: "越南自助游攻略从上海到河内"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n              "
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n    "
+          }
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n    "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 65
+          y: 585
+          w: 199
+          h: 288
+          tag_name: "DIV"
+          class_name: "tip"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: ELEMENT
+            x: 66
+            y: 586
+            w: 0
+            h: 0
+            tag_name: "IMG"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            alt: "北海便民服务"
+            src: "http://www.zylyzx.com/images/tip.jpg"
+            render_type: IMAGE
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+          }
+          child_nodes {
+            type: TEXT
+            x: 66
+            y: 586
+            w: 0
+            h: 0
+            text: "\n       "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 66
+            y: 586
+            w: 197
+            h: 286
+            tag_name: "UL"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 586
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 586
+                w: 60
+                h: 13
+                tag_name: "STRONG"
+                color: "rgb(0, 0, 0)"
+                background_color: "rgba(0, 0, 0, 0)"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 74
+                  y: 590
+                  w: 60
+                  h: 13
+                  text: "北海(0779)"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 608
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 612
+                w: 111
+                h: 13
+                text: "机场问询处:8512770"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 630
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 634
+                w: 121
+                h: 13
+                text: "北海汽车总站:2022094"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 652
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 652
+                w: 60
+                h: 13
+                tag_name: "STRONG"
+                color: "rgb(0, 0, 0)"
+                background_color: "rgba(0, 0, 0, 0)"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 74
+                  y: 656
+                  w: 60
+                  h: 13
+                  text: "南宁(0771)"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 674
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 678
+                w: 112
+                h: 13
+                text: "南宁火车站:2222222"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 696
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 700
+                w: 111
+                h: 13
+                text: "机场问询处:2095123"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 718
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 722
+                w: 134
+                h: 13
+                text: "琅东汽车客运站:5508330"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 740
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 744
+                w: 135
+                h: 13
+                text: "江南汽车客运站:4519999"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 762
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 766
+                w: 122
+                h: 13
+                text: "北大客运中心:3840863"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 784
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 66
+                y: 784
+                w: 60
+                h: 13
+                tag_name: "STRONG"
+                color: "rgb(0, 0, 0)"
+                background_color: "rgba(0, 0, 0, 0)"
+                render_type: INLINE
+                font_size: "12px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 74
+                  y: 788
+                  w: 60
+                  h: 13
+                  text: "桂林(0773)"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 806
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 810
+                w: 111
+                h: 13
+                text: "机场问询处:2845359"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 828
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 832
+                w: 111
+                h: 13
+                text: "桂林火车站:3833124"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n        "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 66
+              y: 850
+              w: 197
+              h: 22
+              tag_name: "LI"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: BLOCK
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 74
+                y: 854
+                w: 88
+                h: 13
+                text: "汽车站:3822666"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n      "
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n    "
+          }
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n  "
+        }
+      }
+      child_nodes {
+        type: TEXT
+        text: "\n  "
+      }
+      child_nodes {
+        type: ELEMENT
+        x: 285
+        y: 213
+        w: 580
+        h: 864
+        tag_name: "DIV"
+        id: "right_about"
+        color: "rgb(0, 0, 0)"
+        background_color: "rgba(0, 0, 0, 0)"
+        render_type: BLOCK
+        font_size: "12px"
+        font_family: "Verdana, Arial, Helvetica, sans-serif"
+        font_style: "normal"
+        font_weight: "normal"
+        child_nodes {
+          type: TEXT
+          text: "\n      "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 285
+          y: 213
+          w: 580
+          h: 33
+          tag_name: "H1"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "13px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: ELEMENT
+            x: 295
+            y: 234
+            w: 0
+            h: 0
+            tag_name: "IMG"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            src: "http://www.zylyzx.com/images/arrow.gif"
+            render_type: IMAGE
+            font_size: "13px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+          }
+          child_nodes {
+            type: TEXT
+            x: 295
+            y: 222
+            w: 77
+            h: 14
+            text: " 您当前位置："
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 285
+            y: 213
+            w: 25
+            h: 14
+            tag_name: "A"
+            color: "rgb(61, 107, 255)"
+            background_color: "rgba(0, 0, 0, 0)"
+            href: "http://www.zylyzx.com/"
+            render_type: INLINE
+            font_size: "13px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 372
+              y: 222
+              w: 25
+              h: 14
+              text: "首页"
+            }
+          }
+          child_nodes {
+            type: TEXT
+            x: 397
+            y: 222
+            w: 16
+            h: 14
+            text: ">>"
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 285
+            y: 213
+            w: 50
+            h: 14
+            tag_name: "A"
+            color: "rgb(61, 107, 255)"
+            background_color: "rgba(0, 0, 0, 0)"
+            href: "http://www.zylyzx.com/news/"
+            render_type: INLINE
+            font_size: "13px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 413
+              y: 222
+              w: 50
+              h: 14
+              text: "越南资讯"
+            }
+          }
+          child_nodes {
+            type: TEXT
+            x: 463
+            y: 222
+            w: 133
+            h: 14
+            text: ">>越南河内西湖(金牛湖)"
+          }
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n    "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 283
+          y: 249
+          w: 582
+          h: 818
+          tag_name: "DIV"
+          id: "main"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: TEXT
+            text: "\n     "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 270
+            w: 540
+            h: 14
+            tag_name: "DIV"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 728
+              y: 270
+              w: 84
+              h: 13
+              text: "本文一共被浏览"
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 304
+              y: 270
+              w: 20
+              h: 13
+              tag_name: "FONT"
+              color: "rgb(255, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 812
+                y: 270
+                w: 20
+                h: 13
+                text: "346"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              x: 832
+              y: 270
+              w: 12
+              h: 13
+              text: "次 "
+            }
+            child_nodes {
+              type: TEXT
+              x: 304
+              y: 270
+              w: 0
+              h: 0
+              text: "\t    \n    "
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n      "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 284
+            w: 540
+            h: 29
+            tag_name: "H2"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "18px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "bold"
+            child_nodes {
+              type: TEXT
+              x: 486
+              y: 287
+              w: 176
+              h: 20
+              text: "越南河内西湖(金牛湖)"
+            }
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 313
+            w: 540
+            h: 94
+            tag_name: "P"
+            color: "rgb(17, 61, 238)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "15px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 304
+              y: 318
+              w: 533
+              h: 83
+              text: "“上有天堂，下有苏杭”的杭州西湖大家都知道，可是大家知不知道在越南的河内也有一个叫西湖的湖泊呢？前段时间去越南旅游，到河内的时候发现这边有个叫西湖（又叫金牛湖）的，反正来了就看看吧顺便了解一下这个西湖和我国的杭州西湖有什么不同的地方。"
+            }
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 407
+            w: 322
+            h: 13
+            tag_name: "A"
+            color: "rgb(61, 107, 255)"
+            background_color: "rgba(0, 0, 0, 0)"
+            href: "http://www.zylyzx.com/images/zx/2009121001.jpg"
+            render_type: INLINE
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: ELEMENT
+              x: 304
+              y: 407
+              w: 322
+              h: 249
+              tag_name: "IMG"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              alt: "越南河内西湖"
+              src: "http://www.zylyzx.com/images/zx/2009121001.jpg"
+              render_type: IMAGE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+            }
+          }
+          child_nodes {
+            type: TEXT
+            x: 304
+            y: 407
+            w: 0
+            h: 0
+            text: " \n"
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 656
+            w: 540
+            h: 50
+            tag_name: "P"
+            color: "rgb(17, 61, 238)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "15px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 304
+              y: 661
+              w: 531
+              h: 39
+              text: "西湖，位于河内的西北部，是河内最大的湖泊。据说在很久以前，西湖是越南红河的一个组成部分，不过由于环境的原因，西湖形成了现在这个样子。"
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n"
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 706
+            w: 540
+            h: 160
+            tag_name: "P"
+            color: "rgb(17, 61, 238)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "15px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 304
+              y: 711
+              w: 535
+              h: 149
+              text: "越南基本没一个地方都有一个传说，西湖也不例外。河内西湖最出名的就是那个金牛传说了。这个故事是这样的，这里原本是一个巨大的盆地，住着一个医术很高明的巫医，一直在附近悬壶济世。邻国有个生了怪病的国王，看过很多医生都没有治好，听闻这个巫医医术高明就请他为其治病。国王痊愈后，赏赐巫医大量的财富，不过巫医拒绝了国王的赏赐，只请求国王让自己带些黑色的铜回去国王同意了。巫医拿着大量的铜开始铸造一头牛，铸成之后这头牛突然间散发金光，从嘴中不断的吐出水来，慢慢的填满了这个盆地，形成了现在这个西湖。"
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n"
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 866
+            w: 540
+            h: 94
+            tag_name: "P"
+            color: "rgb(17, 61, 238)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "15px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 304
+              y: 871
+              w: 535
+              h: 83
+              text: "就算在陈、阮两朝的时候，历代的国王都是在河内的西湖建造别院，就算到了现在还有为他们种植鲜花和水果的村庄在。到了今天，那些国王留下的别墅多数变成了寺庙，供越南一些官员朝拜，和吸引一些游客前来参观，如果你要到越南的河内来旅游就千万别错过了。"
+            }
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 960
+            w: 0
+            h: 0
+            tag_name: "BR"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: OTHER
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 960
+            w: 0
+            h: 0
+            tag_name: "BR"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: OTHER
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 988
+            w: 540
+            h: 2
+            tag_name: "HR"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 990
+            w: 0
+            h: 0
+            tag_name: "BR"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: OTHER
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+          }
+          child_nodes {
+            type: TEXT
+            x: 304
+            y: 1004
+            w: 90
+            h: 13
+            text: "　　　　上一条: "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 990
+            w: 84
+            h: 13
+            tag_name: "A"
+            color: "rgb(61, 107, 255)"
+            background_color: "rgba(0, 0, 0, 0)"
+            href: "http://www.zylyzx.com/news/news_bk.php?id=53"
+            render_type: INLINE
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 394
+              y: 1004
+              w: 84
+              h: 13
+              text: "越南：朗东海滩"
+            }
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 990
+            w: 0
+            h: 0
+            tag_name: "BR"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: OTHER
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 990
+            w: 0
+            h: 0
+            tag_name: "BR"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: OTHER
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+          }
+          child_nodes {
+            type: TEXT
+            x: 304
+            y: 1032
+            w: 90
+            h: 13
+            text: "　　　　下一条: "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 304
+            y: 990
+            w: 120
+            h: 13
+            tag_name: "A"
+            color: "rgb(61, 107, 255)"
+            background_color: "rgba(0, 0, 0, 0)"
+            href: "http://www.zylyzx.com/news/news_bk.php?id=51"
+            render_type: INLINE
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 394
+              y: 1032
+              w: 120
+              h: 13
+              text: "越南旅游行：岘港回顾"
+            }
+          }
+          child_nodes {
+            type: TEXT
+            x: 304
+            y: 990
+            w: 0
+            h: 0
+            text: "  "
+          }
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n  "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 285
+          y: 1077
+          w: 580
+          h: 0
+          tag_name: "DIV"
+          class_name: "clear"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n"
+        }
+      }
+      child_nodes {
+        type: TEXT
+        text: "\n"
+      }
+      child_nodes {
+        type: ELEMENT
+        x: 65
+        y: 1077
+        w: 800
+        h: 82
+        tag_name: "DIV"
+        id: "footer"
+        color: "rgb(0, 0, 0)"
+        background_color: "rgba(0, 0, 0, 0)"
+        render_type: BLOCK
+        font_size: "12px"
+        font_family: "Verdana, Arial, Helvetica, sans-serif"
+        font_style: "normal"
+        font_weight: "normal"
+        child_nodes {
+          type: TEXT
+          text: "\n  "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 65
+          y: 1077
+          w: 6
+          h: 82
+          tag_name: "DIV"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n  "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 71
+          y: 1077
+          w: 789
+          h: 82
+          tag_name: "DIV"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+          child_nodes {
+            type: TEXT
+            text: "\n  "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 260
+            y: 1077
+            w: 600
+            h: 62
+            tag_name: "DIV"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              x: 260
+              y: 1087
+              w: 127
+              h: 13
+              text: "\n  Copyright © 2008-2010 "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 260
+              y: 1077
+              w: 60
+              h: 13
+              tag_name: "A"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              href: "http://www.zylyzx.com/"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: ELEMENT
+                x: 260
+                y: 1077
+                w: 60
+                h: 14
+                tag_name: "H1"
+                color: "rgb(255, 0, 0)"
+                background_color: "rgba(0, 0, 0, 0)"
+                render_type: INLINE
+                font_size: "13px"
+                font_family: "Verdana, Arial, Helvetica, sans-serif"
+                font_style: "normal"
+                font_weight: "bold"
+                child_nodes {
+                  type: TEXT
+                  x: 387
+                  y: 1086
+                  w: 60
+                  h: 14
+                  text: "越南旅游网"
+                }
+              }
+            }
+            child_nodes {
+              type: TEXT
+              x: 447
+              y: 1087
+              w: 172
+              h: 13
+              text: " 版权所有 All Rights Reserved     "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 260
+              y: 1077
+              w: 48
+              h: 13
+              tag_name: "A"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              href: "http://www.zylyzx.com/sitemap.xml"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 619
+                y: 1087
+                w: 48
+                h: 13
+                text: "网站地图"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              x: 667
+              y: 1087
+              w: 3
+              h: 13
+              text: " "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 260
+              y: 1077
+              w: 0
+              h: 0
+              tag_name: "BR"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: OTHER
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+            }
+            child_nodes {
+              type: TEXT
+              x: 260
+              y: 1105
+              w: 356
+              h: 13
+              text: "\n  联系地址: 北海市北海大道中22号桂海宾馆一楼北海环球国际旅行社"
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 260
+              y: 1077
+              w: 0
+              h: 0
+              tag_name: "BR"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: OTHER
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+            }
+            child_nodes {
+              type: TEXT
+              x: 260
+              y: 1123
+              w: 351
+              h: 13
+              text: "\n  E_mail: 18977934338@189.cn MSN:bh13977928338@126.com"
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 260
+              y: 1077
+              w: 0
+              h: 0
+              tag_name: "BR"
+              color: "rgb(0, 0, 0)"
+              background_color: "rgba(0, 0, 0, 0)"
+              render_type: OTHER
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+            }
+            child_nodes {
+              type: TEXT
+              text: "\n  "
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n  "
+          }
+          child_nodes {
+            type: ELEMENT
+            x: 260
+            y: 1139
+            w: 600
+            h: 18
+            tag_name: "DIV"
+            color: "rgb(0, 0, 0)"
+            background_color: "rgba(0, 0, 0, 0)"
+            render_type: BLOCK
+            font_size: "12px"
+            font_family: "Verdana, Arial, Helvetica, sans-serif"
+            font_style: "normal"
+            font_weight: "normal"
+            child_nodes {
+              type: TEXT
+              text: "\n    "
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 260
+              y: 1139
+              w: 103
+              h: 13
+              tag_name: "A"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              href: "http://www.miibeian.gov.cn/"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 260
+                y: 1141
+                w: 103
+                h: 13
+                text: "桂icp备09001254号"
+              }
+            }
+            child_nodes {
+              type: ELEMENT
+              x: 260
+              y: 1139
+              w: 12
+              h: 13
+              tag_name: "A"
+              color: "rgb(61, 107, 255)"
+              background_color: "rgba(0, 0, 0, 0)"
+              href: "http://www.zylyzx.com/bbs2/user.php"
+              render_type: INLINE
+              font_size: "12px"
+              font_family: "Verdana, Arial, Helvetica, sans-serif"
+              font_style: "normal"
+              font_weight: "normal"
+              child_nodes {
+                type: TEXT
+                x: 363
+                y: 1141
+                w: 12
+                h: 13
+                text: "后"
+              }
+            }
+            child_nodes {
+              type: TEXT
+              x: 260
+              y: 1139
+              w: 0
+              h: 0
+              text: "\n     "
+            }
+            child_nodes {
+              type: TEXT
+              x: 260
+              y: 1139
+              w: 0
+              h: 0
+              text: "\n "
+            }
+          }
+          child_nodes {
+            type: TEXT
+            text: "\n "
+          }
+        }
+        child_nodes {
+          type: TEXT
+          text: "\n "
+        }
+        child_nodes {
+          type: ELEMENT
+          x: 860
+          y: 1077
+          w: 5
+          h: 82
+          tag_name: "DIV"
+          color: "rgb(0, 0, 0)"
+          background_color: "rgba(0, 0, 0, 0)"
+          render_type: BLOCK
+          font_size: "12px"
+          font_family: "Verdana, Arial, Helvetica, sans-serif"
+          font_style: "normal"
+          font_weight: "normal"
+        }
+        child_nodes {
+          type: TEXT
+          text: " \n "
+        }
+      }
+      child_nodes {
+        type: TEXT
+        text: "\n "
+      }
+    }
+  }
+}

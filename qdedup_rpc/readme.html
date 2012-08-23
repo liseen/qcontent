@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en" xml:lang="en">
+<head>
+<title>readme</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2011-09-06 10:42:03 CST"/>
+<meta name="author" content=""/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+
+<h1 class="title">readme</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 简介 </a></li>
+<li><a href="#sec-2">2 使用方法 </a>
+<ul>
+<li><a href="#sec-2.1">2.1 启动多个server。 </a>
+<ul>
+<li><a href="#sec-2.1.1">2.1.1 server的help信息 </a></li>
+</ul>
+</li>
+<li><a href="#sec-2.2">2.2 使用dedup client </a>
+<ul>
+<li><a href="#sec-2.2.1">2.2.1 client的help信息 </a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-3">3 如何编译 </a>
+<ul>
+<li><a href="#sec-3.1">3.1 编译依赖的包depends </a></li>
+<li><a href="#sec-3.2">3.2 编译client </a></li>
+<li><a href="#sec-3.3">3.3 编译server </a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4 性能测试 </a></li>
+<li><a href="#sec-5">5 测试用例 </a>
+<ul>
+<li><a href="#sec-5.1">5.1 测试server </a></li>
+<li><a href="#sec-5.2">5.2 测试client </a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 简介 </h2>
+<div class="outline-text-2" id="text-1">
+
+<p>基于rpc 实现的dedup. 按照site将各篇文章送至各个server 进行dedup, 计算是否要dedup.
+dedup算法和之前一致，使用长句子算hash。
+hash算法是city<sub>hash</sub>.city<sub>hash的结果是uint64</sub>.因此，在dedup server里又根据mmap<sub>file</sub><sub>size</sub> 大小对hash值取余.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 使用方法 </h2>
+<div class="outline-text-2" id="text-2">
+
+
+
+</div>
+
+<div id="outline-container-2.1" class="outline-3">
+<h3 id="sec-2.1"><span class="section-number-3">2.1</span> 启动多个server。 </h3>
+<div class="outline-text-3" id="text-2.1">
+
+<p>./dedup<sub>server</sub> -p 8895 -s 30 -f a<sub>test2</sub> -t 100 -T 100000
+./dedup<sub>xserver</sub> -p 8893 -s 30 -f a<sub>test</sub> -t 100 -T 100000
+……
+</p>
+
+</div>
+
+<div id="outline-container-2.1.1" class="outline-4">
+<h4 id="sec-2.1.1"><span class="section-number-4">2.1.1</span> server的help信息 </h4>
+<div class="outline-text-4" id="text-2.1.1">
+
+<p>$ ./dedup<sub>server</sub> -h
+Usage:  ./dedup<sub>server</sub> options 
+-h  &ndash;help             Display this usage information.
+-f                     Mmap file name. (Default is 'dedup<sub>mmap</sub><sub>file'</sub>) 
+-s                     Mmap file size. (Default is 100M)
+-p                     Server port.   (Default is 8891)
+-t                     Server thread num(Default is 10) 
+-D                     run as a daemon
+-T                     Sync threshold of mmap (Default is 500000) 
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2.2" class="outline-3">
+<h3 id="sec-2.2"><span class="section-number-3">2.2</span> 使用dedup client </h3>
+<div class="outline-text-3" id="text-2.2">
+
+<p>cat dedup<sub>file</sub> | ./dedup<sub>client</sub> -S "localhost:8881;localhost:8891" -o output
+输出3个文件
+# output.out   通过dedup的url
+# output.del   被dedup掉的url
+# output.bad<sub>list</sub>   列表页，但是new<sub>link</sub><sub>size</sub>=0
+</p>
+
+</div>
+
+<div id="outline-container-2.2.1" class="outline-4">
+<h4 id="sec-2.2.1"><span class="section-number-4">2.2.1</span> client的help信息 </h4>
+<div class="outline-text-4" id="text-2.2.1">
+
+<p>$ ./dedup<sub>client</sub> -h
+Usage:  ./dedup<sub>client</sub> options 
+-h               Display this usage information.
+-u               Display usage of mmap file.
+-c               Config file for client. (Default dedup.conf)
+-d               Debug mode. Another format of input line
+-s               Also output Deduped url in stderr.Notice: Undeduped content always output in stdout
+-t               Stat the documents
+-S               Such as 'localhost:8891,localhost:8893,192.168.4.2:2313'
+-o               Output file's name. default (qdedup<sub>client</sub>)
+-H               Halt dedup servers
+-v               Print verbose for every article. Otherwise, content and title will not output for deduped files
+</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> 如何编译 </h2>
+<div class="outline-text-2" id="text-3">
+
+
+</div>
+
+<div id="outline-container-3.1" class="outline-3">
+<h3 id="sec-3.1"><span class="section-number-3">3.1</span> 编译依赖的包depends </h3>
+<div class="outline-text-3" id="text-3.1">
+
+<p>msgpack-rpc msgpack qcontentcommon qmake
+</p></div>
+
+</div>
+
+<div id="outline-container-3.2" class="outline-3">
+<h3 id="sec-3.2"><span class="section-number-3">3.2</span> 编译client </h3>
+<div class="outline-text-3" id="text-3.2">
+
+<p>cd dedup<sub>client</sub>; qmake; make
+</p></div>
+
+</div>
+
+<div id="outline-container-3.3" class="outline-3">
+<h3 id="sec-3.3"><span class="section-number-3">3.3</span> 编译server </h3>
+<div class="outline-text-3" id="text-3.3">
+
+<p>cd dedup<sub>server</sub>; qmake ;make
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> 性能测试 </h2>
+<div class="outline-text-2" id="text-4">
+
+<p>每秒处理500 ~ 600篇文章.
+</p>
+<p>
+$ time cat 10000 | ./dedup<sub>client</sub> -t &gt; good
+deduped documents:2029
+</p>
+<p>
+real     0m3.544s
+user     0m2.240s
+sys     0m1.680s
+</p>
+
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> 测试用例 </h2>
+<div class="outline-text-2" id="text-5">
+
+<p>cd test;
+</p>
+</div>
+
+<div id="outline-container-5.1" class="outline-3">
+<h3 id="sec-5.1"><span class="section-number-3">5.1</span> 测试server </h3>
+<div class="outline-text-3" id="text-5.1">
+
+<p>./server<sub>test</sub>.pl
+</p>
+
+</div>
+
+</div>
+
+<div id="outline-container-5.2" class="outline-3">
+<h3 id="sec-5.2"><span class="section-number-3">5.2</span> 测试client </h3>
+<div class="outline-text-3" id="text-5.2">
+
+<p>./client<sub>test</sub>.pl
+</p>
+</div>
+</div>
+</div>
+<div id="postamble">
+<p class="author"> Author: 
+<a href="mailto:zhenbao.zhou@g-laptop">&lt;zhenbao.zhou@g-laptop&gt;</a>
+</p>
+<p class="date"> Date: 2011-09-06 10:42:03 CST</p>
+<p class="creator">HTML generated by org-mode 6.33x in emacs 23</p>
+</div>
+</div>
+</body>
+</html>

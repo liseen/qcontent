@@ -1,0 +1,18 @@
+#!/bin/sh
+
+exec 2>&1
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+
+BIN=$(readlink -f -- $(dirname -- "$0"))
+
+LOG_DIR=/export/m4/qfetcher-log/
+test -d $LOG_DIR || mkdir -p $LOG_DIR && chown -R xunxin.wan:qunarengineer $LOG_DIR
+
+export GLOG_log_dir=$LOG_DIR
+
+exec setuidgid xunxin.wan /opt/qcontent/bin/qfetcher --conf /opt/qcontent/etc/qfetcher.conf

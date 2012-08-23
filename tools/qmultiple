@@ -1,0 +1,106 @@
+#!/bin/bash
+
+scriptName="${0##*/}"
+
+declare -i DEFAULT_MULTIPLE=1
+declare -i DEFAULT_INTERVAL=1
+declare -i DEFAULT_CYCLE_INTERVAL=300
+declare -i DEFAULT_START_DELAY=1
+
+declare -i multiple=DEFAULT_MULTIPLE
+declare -i interval=DEFAULT_INTERVAL
+declare -i cycle_interval=DEFAULT_CYCLE_INTERVAL
+declare -i start_delay=DEFAULT_START_DELAY
+
+declare -a child_pids
+
+function printUsage() {
+    cat <<EOF
+
+    Synopsis
+    $scriptName [-m multiple] [-s start_delay] [-i interval] [-c cycle_interval] command
+EOF
+}
+
+on_die()
+{
+    # print message
+    #
+    echo "Dying..."
+    for ((i=0; i < $multiple; i=$i+1 )); do
+        pid=${child_pids[$i]}
+        if [ "X$pid" == "X" ]; then
+            continue
+        fi
+        echo "  killing $pid"
+        kill $pid
+    done
+
+    # Need to exit the script explicitly when done.
+    # Otherwise the script would live on, until system
+    # realy goes down, and KILL signals are send.
+    #
+    exit 0
+}
+
+trap 'on_die' HUP INT TERM
+
+while getopts ":m:s:i:c:" option; do
+    case "$option" in
+        m) multiple=$OPTARG ;;
+        s) start_delay=$OPTARG ;;
+        i) interval=$OPTARG ;;
+        c) cycle_interval=$OPTARG ;;
+        *) printUsage; exit 1 ;;
+    esac
+done
+echo "      multiple: $multiple"
+echo "   start_delay: $start_delay"
+echo "      interval: $interval"
+echo "cycle_interval: $cycle_interval"
+
+shift $((OPTIND - 1))
+command=$1
+shift
+echo "$command"
+
+for (( i=0; i < $multiple; i=$i+1 )); do
+    echo "start $command"
+    (exec "$command" "$@") &
+    child_pids[$i]=$!
+    echo "sleep start_delay: $start_delay"
+    if [ $start_delay -gt 0 ]; then
+        sleep $start_delay
+    fi
+done
+
+echo "all processes running ..."
+j=0
+while true; do
+    for (( i=0; i < $multiple; i=$i+1 )); do
+        if [ $j -eq 0 ]; then
+            echo "sleep interval: $interval"
+        fi
+        if [ $interval -gt 0 ]; then
+            sleep $interval
+        fi
+        kill -0 ${child_pids[$i]} 2>/dev/null
+        if [ $? -ne 0 ]; then
+            echo "start $command"
+            (exec "$command" "$@") &
+            child_pids[$i]=$!
+            echo "sleep start_delay: $start_delay"
+            if [ $start_delay -gt 0 ]; then
+                sleep $start_delay;
+            fi
+        fi
+    done
+    if [ $j -eq 0 ]; then
+        echo "sleep cycle_interval: $cycle_interval"
+    fi
+    j=$((j + 1))
+    if [ $cycle_interval -gt 0 ]; then
+        sleep $cycle_interval
+    fi
+done
+

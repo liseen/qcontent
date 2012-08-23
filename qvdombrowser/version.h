@@ -1,0 +1,10 @@
+#ifndef VERSION_H
+#define VERSION_H
+
+#define VB_MAJORVERSION_NUMBER 0
+#define VB_MINORVERSION_NUMBER 0
+#define VB_PATCHLEVEL_NUMBER   4
+#define VB_PRODUCT_NAME "VDOM Browser"
+
+#endif
+

@@ -1,0 +1,52 @@
+#!/bin/env bash
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+
+BIN=$(readlink -f -- $(dirname -- "$0"))
+
+DUMP_DIR=/export/m4/extracted-dump
+test -d $DUMP_DIR || mkdir -p $DUMP_DIR
+
+cd $DUMP_DIR
+
+while true
+do
+    hubproc=` ps -ef | grep -v grep | grep qcontenthub | grep -v "\-u"`
+    if [ ! -z "$hubproc" ]
+    then
+        now_date=`date +%Y%m%d%H%M%S`
+        extracted_file="$now_date"
+        extracted_bad_list_file="$now_date.bad_list"
+        extracted_out_file="$now_date.out"
+        extracted_del_file="$now_date.del"
+        #echo -e "dump_extracted\t5000" | hubmgr -h localhost > "$extracted_file" 2>"$extracted_file.err"
+        #echo -e "dump_extracted\t5000" | hubmgr -h localhost 2>"$extracted_file.err" | /opt/qcontent/bin/dedup_client -S "l-crwl3:20004,l-crwl3:20005,l-crwl4:20004,l-crwl4:20005,l-crwl5:20004,l-crwl5:20005,l-crwl6:20004,l-crwl6:20005,l-crwl7:20004,l-crwl7:20005" -s >"$extracted_out_file" 2>"$extracted_del_file"
+        echo -e "dump_extracted\t5000" | hubmgr -h localhost 2>"$extracted_file.err" | /opt/qcontent/bin/dedup_client -S "l-crwl3:20004,l-crwl3:20005,l-crwl4:20004,l-crwl4:20005,l-crwl5:20004,l-crwl5:20005,l-crwl6:20004,l-crwl6:20005,l-crwl7:20004,l-crwl7:20005" -o "$extracted_file"
+
+
+        if [ ! -s "$extracted_bad_list_file" ];
+        then
+            rm  -rf "$extracted_bad_list_file"
+        fi
+
+        if [ ! -s "$extracted_out_file" ];
+        then
+            rm  -rf "$extracted_out_file"
+        fi
+
+        if [ ! -s "$extracted_del_file" ];
+        then
+            rm  -rf "$extracted_del_file"
+        fi
+
+        if [ ! -s "$extracted_file.err" ];
+        then
+            rm  -rf "$extracted_file.err"
+        fi
+    fi
+    sleep  2
+done

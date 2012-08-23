@@ -1,0 +1,10 @@
+#!/bin/sh
+
+exec 2>&1
+#ulimit -v $(( 200 * 1000 ))
+#ulimit -t 36000
+rm -f /tmp/.X99-lock
+
+BIN=$(readlink -f -- $(dirname -- "$0"))
+
+exec Xvfb :99 -auth "$BIN/Xauth.conf" -shmem -dpi 96 -nolisten tcp -screen 1 1280x1024x8

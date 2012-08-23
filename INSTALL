@@ -1,0 +1,45 @@
+
+1. install qt into /opt/qt
+    ref: http://svn.corp.qunar.com/svn/search-team/qcontent-deps/package/qt-everywhere-opensource-src-4.7.1
+
+2. install icu4c, glog, protobuf, google-perftools into /opt/qcontent/
+    icu4c-3_6-src.tgz
+    glog-0.3.1.tar.gz
+    protobuf-2.3.0.tar.gz
+    google-perftools-1.6.tar.gz
+
+3. install bzip, libmemcached, memcached, tokyocabinet with a mulmis patch, tokyotyrant into /opt/qcontent
+    bzip2-1.0.5.tar.gz
+    libmemcached-0.42.tar.gz
+    libevent-1.4.13-stable.tar.gz
+    memcached-1.4.5.tar.gz
+    tokyocabinet-1.4.44-patched-mulmisc.tar.gz
+    tokyotyrant-1.1.40.tar.gz
+    tokyotyrant-perl-1.16.tar.gz
+
+
+4. mpio msgpack msgpack-rpc into /opt/qcontent
+    mpio.tar.gz
+    msgpack-0.5.2.tar.gz
+    msgpack-rpc-cpp.tar.gz
+
+5. install OpenCV for thumb scale
+    OpenCV-2.2.0.tar.bz2
+
+6. install other tools: git squid haproxy  opencc into /opt/qcontent
+    git-1.7.0.5.tar.gz
+    haproxy-1.4.6.tar.gz
+    opencc-0.1.2.tar.gz
+    squid-3.1.6.tar.gz
+
+7. install qwebvdom
+    ref: http://svn.corp.qunar.com/svn/search-team/qcontent/trunk/qwebvdom/INSTALL
+
+8. install qmake
+    cd qcontent
+    qmake
+    sudo make install
+
+
+install qt and qcontent complteted.
+

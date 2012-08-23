@@ -1,0 +1,50 @@
+#!/bin/env bash
+
+declare -a QPIDS
+
+BIN=$(readlink -f -- $(dirname -- "$0"))
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+export DISPLAY=:99
+
+LOG_DIR=/export/m4/qfetcher-log/
+test -d $LOG_DIR || mkdir -p $LOG_DIR
+
+export GLOG_log_dir=$LOG_DIR
+
+qfetcher -d --conf $BIN/../etc/qfetcher.conf
+exit 0
+PROCESSES=$1
+if [ -z $PROCESSES ]; then
+    echo "Usage: $0 <num>";
+    exit 1;
+else
+    for i in  `seq 0 $(($PROCESSES - 1 ))`;
+    do
+	    qfetcher -d --conf $BIN/../etc/qfetcher.conf
+        QPIDS[$i]=$!
+        sleep 1;
+    done
+fi
+
+sleep 5
+
+### monitor
+while true
+do
+    for i in  `seq 0 $(($PROCESSES - 1 ))`
+    do
+        kill -0 ${QPIDS[$i]}
+        if [ $? -ne 0 ]
+        then
+	        qfetcher -d --conf $BIN/../etc/qfetcher.conf
+            QPIDS[$i]=$!
+        fi
+        sleep 1;
+    done
+    sleep 5;
+done

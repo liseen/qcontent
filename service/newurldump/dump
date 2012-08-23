@@ -1,0 +1,37 @@
+#!/bin/env bash
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+
+BIN=$(readlink -f -- $(dirname -- "$0"))
+
+DUMP_DIR=/export/m4/newurl-dump
+test -d $DUMP_DIR || mkdir -p $DUMP_DIR
+
+cd $DUMP_DIR
+
+while true
+do
+    hubproc=` ps -ef | grep -v grep | grep qcontenthub | grep -v "\-u"`
+    if [ ! -z "$hubproc" ]
+    then
+        now_date=`date +%Y%m%d%H%M%S`
+        newurl_file="$now_date.current"
+        newurl_okay_file="$now_date.newurl"
+        echo -e "dump_new_url\t5000" | hubmgr -h localhost > "$newurl_file" 2>"$newurl_file.err"
+        if [ ! -s "$newurl_file" ];
+        then
+            rm  -rf "$newurl_file";
+        else
+            mv $newurl_file $newurl_okay_file;
+        fi
+        if [ ! -s "$newurl_file.err" ];
+        then
+            rm  -rf "$newurl_file.err"
+        fi
+    fi
+    sleep  2
+done

@@ -1,0 +1,5 @@
+#!/bin/sh
+# $author: xiexin
+mkdir -p ./main
+chown -R root ./main
+exec multilog t I s2000000 n5 ./main

@@ -1,0 +1,26 @@
+#!/bin/sh
+
+exec 2>&1
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+
+ROOT_DIR=/export/m1
+DATA_DIR=$ROOT_DIR/qcrawler-htmlvdom/data
+LOG_DIR=$ROOT_DIR/qcrawler-htmlvdom/log
+ULOG_DIR=$ROOT_DIR/qcrawler-htmlvdom/ulog
+
+test -d $DATA_DIR || mkdir -p $DATA_DIR && chown -R xunxin.wan:qunarengineer $DATA_DIR
+test -d $LOG_DIR || mkdir -p $LOG_DIR && chown -R xunxin.wan:qunarengineer $LOG_DIR
+test -d $ULOG_DIR || mkdir -p $ULOG_DIR && chown -R xunxin.wan:qunarengineer $ULOG_DIR
+
+LOG_FILE=$LOG_DIR/qcrawler-htmlvdom.log
+DAEMON="-le -log ${LOG_FILE}"
+
+sleep 30
+
+exec setuidgid xunxin.wan ttserver -port 9890 -sid 60 -thnum 8 -mul 8 ${DAEMON} \
+    "${DATA_DIR}/qcrawler-htmlvdom.tch#bnum=50000000#opts=ld#rcnum=512#xmsiz=1610612736"

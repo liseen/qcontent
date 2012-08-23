@@ -1,0 +1,3 @@
+cat  /export/m4/qcontent-image/image.for.index | /opt/qcontent/bin/qimgfilter -h l-crwl4 > ./image.for.index.filter 2>./image.for.index.na
+
+cat image.for.index.filter | psql -h l-dev1.s.cn3.qunar.com -Upostgre snapshot -c "copy thumb_imgs (md5, url, raw_url, raw_width, raw_height, alt, thumb_base64) from stdin with null as ''"

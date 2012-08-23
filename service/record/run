@@ -1,0 +1,25 @@
+#!/bin/sh
+
+exec 2>&1
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qccontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+
+ROOT_DIR=/export/m2/
+DATA_DIR=$ROOT_DIR/qcrawler-record/data
+LOG_DIR=$ROOT_DIR/qcrawler-record/log
+ULOG_DIR=$ROOT_DIR/qcrawler-record/ulog
+
+test -d $DATA_DIR || mkdir -p $DATA_DIR && chown -R xunxin.wan:qunarengineer $DATA_DIR
+test -d $LOG_DIR || mkdir -p $LOG_DIR && chown -R xunxin.wan:qunarengineer $LOG_DIR
+test -d $ULOG_DIR || mkdir -p $ULOG_DIR && chown -R xunxin.wan:qunarengineer $ULOG_DIR
+
+LOG_FILE=$LOG_DIR/qcrawler-record.log
+
+sleep 60
+
+exec setuidgid xunxin.wan ttserver -port 9871 -sid 70 -thnum 32 -mul 16 -le -log ${LOG_FILE} \
+    "${DATA_DIR}/qcrawler-record.tct#bnum=200000000#opts=ld#rcnum=2000#xmsiz=134217728"

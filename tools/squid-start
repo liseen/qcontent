@@ -1,0 +1,24 @@
+#!/bin/env bash
+
+export TZ=Asia/Shanghai
+export LC_ALL='en_US.UTF8'
+
+export LD_LIBRARY_PATH=/opt/qcontent/lib:$LD_LIBRARY_PATH
+export PATH=/opt/qcontent/bin:$PATH
+export PATH=/opt/qcontent/sbin:$PATH
+
+
+BIN=$(readlink -f -- $(dirname -- "$0"))
+
+ROOT_DIR=/export/m4/squid
+
+cdir=$ROOT_DIR/log
+test -d $cdir || mkdir -p $cdir
+cdir=$ROOT_DIR/run
+test -d $cdir || mkdir -p $cdir
+
+cdir=$ROOT_DIR/cache
+test -d $cdir || /opt/qcontent/sbin/squid -z -f /opt/qcontent/etc/squid.conf
+
+/opt/qcontent/sbin/squid -f /opt/qcontent/etc/squid.conf
+
